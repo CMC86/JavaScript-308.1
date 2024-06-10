@@ -28,6 +28,11 @@ if (lastDigit === 0 || lastDigit === 5) {
 
 // Check: first number larger than last number
 
-console.log(n1 > n4); // true
+if (n1 > n4) {
+console.log(n1 + " is greater than 7");
+
+} else {
+console.log(n1 + " is not greater than 7");
+}
 
 
