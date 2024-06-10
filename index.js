@@ -35,4 +35,8 @@ console.log("I like Turtles");
 console.log("Where's Fluffy?");
 }
 
+//Arithmetic Chain
 
+a = (n2 - n1) * n3 / n4;
+
+console.log(a);
