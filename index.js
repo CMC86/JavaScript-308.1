@@ -13,6 +13,7 @@ const isSum50 = (n1 + n2 + n3 + n4) == 50;
 console.log(isSum50);
 
 
+// Check: divisibility by 5
 
 let N = 25;
 // Extract the last digit using N % 10
@@ -24,3 +25,9 @@ if (lastDigit === 0 || lastDigit === 5) {
 } else {
     console.log(N + " is not divisible by 5");
 }
+
+// Check: first number larger than last number
+
+console.log(n1 > n4); // true
+
+
