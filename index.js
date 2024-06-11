@@ -80,6 +80,8 @@ function calculateRoadTrip(distance, speed, fuelEfficiency, fuelCostPerGallon, f
      const result = 
     calculateRoadTrip(distance, speed, fuelEfficiency, fuelCostPerGallon, fuelBudget); 
     // Log the results using template literals console.log(`At ${speed} miles per hour:`); console.log(`Total Travel Time: ${result.travelTime} hours`); 
-    console.log(`Total Fuel Needed: ${result.totalFuelNeeded} gallons`); console.log(`Total Fuel Cost: $${result.totalFuelCost}`); 
-    console.log(`Is Budget Enough: ${result.isBudgetEnough ? 'Yes' : 'No'}`); console.log('-------------------------------'); 
+    console.log(`Total Fuel Needed: ${result.totalFuelNeeded} gallons`); 
+    console.log(`Total Fuel Cost: $${result.totalFuelCost}`); 
+    console.log(`Is Budget Enough: ${result.isBudgetEnough ? 'Yes' : 'No'}`); 
+    console.log('-------------------------------'); 
     });
