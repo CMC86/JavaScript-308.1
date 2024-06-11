@@ -44,6 +44,6 @@ console.log(a);
 // Check three: no number larger than 25
 // This time, we use the OR operator to check
 // if ANY of the numbers is larger than 25.
-const isOver25 = n1 > 25 &&  n2 >  25 && n3 > 25 && n4 > 25;
+const isOver25 = n1 >= 25 &&  n2 <  25 && n3 < 25 && n4 < 25;
 
 console.log(isOver25);
